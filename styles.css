@@ -1,0 +1,97 @@
+
+/* Clearfix */
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+.clearfix { display: inline-block; }
+  /* start commented backslash hack \*/
+  * html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+/* Header */
+
+.site-header{
+    background: #3f51b5;
+    color: #fff;
+    padding: 10px 5%; 
+    /* top-bottom, left-right values */
+    box-shadow: 0 1px 3px #707070;
+}
+.site-header h1 {
+    margin:0;
+    float: left;
+}
+
+/* Navigation */
+.main-nav ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    float: right;
+}
+
+.main-nav ul li{
+    display: inline;
+}
+
+.main-nav ul li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/* Columns */
+.column{
+    width: 50%;
+/* 70 percent of its parent */
+    float: left;
+}
+.column-wrapper{
+    width: 75%;
+    margin: 0 auto;
+}
+
+.profile-pic{
+    width:128px;
+    height:128px;
+    border-radius: 50% /* make rounded */
+}
+
+iframe{
+    margin: 0 auto;
+    display: block;
+}
+
+.billboard{
+    background:#ccc;
+    text-align: center;
+    padding: 30px;
+
+}
+
+.billboard h2{
+    margin-top: 0;
+}
+
+/* Footer */
+
+.main-footer{
+    background: #333;
+    padding: 40px 5%;
+    color: #fff;
+}
+
+.main-footer li{
+    display: inline;
+}
+.main-footer li a{
+    display: inline;
+    color: #fff;
+    text-decoration: none;
+}
